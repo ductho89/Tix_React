@@ -1,0 +1,206 @@
+/* Start Film Filter */
+#filmFilter {
+  transform: translateY(-50%);
+  z-index: 2 !important;
+  background-color: white;
+}
+
+#filmFilter .filmFilterItem {
+  position: relative;
+}
+
+#filmFilter .filmFilterItem::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-right: 1px solid #fff;
+  border-right-color: rgba(238, 238, 238, 0.88);
+}
+
+/* End Film Filter */
+/* Start Film Thumbnail */
+#film-thumnails-wrap {
+  z-index: -1;
+}
+
+#film-thumnails-wrap .nav li a.active {
+  font-size: 24px;
+  color: #fb4226;
+  background-color: transparent !important;
+}
+
+#film-thumnails-wrap .nav li a {
+  font-size: 20px;
+  color: black;
+  background-color: transparent !important;
+  transition: all 0.5s;
+}
+
+#film-thumnails-wrap .nav li a:hover {
+  font-size: 24px;
+}
+
+#film-thumbnails-1 {
+  position: relative;
+}
+
+#film-thumbnails-1 img.control-arrow {
+  position: absolute;
+  height: 6rem;
+  top: 42%;
+  opacity: 0.5;
+}
+
+#film-thumbnails-2 {
+  position: relative;
+}
+
+#film-thumbnails-2 img.control-arrow {
+  position: absolute;
+  height: 6rem;
+  top: 42%;
+  opacity: 0.5;
+}
+
+.film-img {
+  position: relative;
+}
+
+.thumbnail-content .film-score {
+  position: absolute;
+  background-color: rgba(12, 27, 54, 0.8);
+  border: 1px solid #1f2e46;
+  padding: 2px;
+  top: 12px;
+  right: 12px;
+  color: #fff;
+  max-width: 54px;
+}
+
+.film-score p {
+  margin: 0;
+}
+
+.thumbnail-content .film-score img.star {
+  max-width: 8px;
+  display: inline-block;
+}
+
+.thumbnail-content .film-score img.half-star {
+  max-width: 8px;
+  display: inline-block;
+}
+
+.thumbnail-content .realease-day {
+  position: absolute;
+  z-index: 8;
+  background-color: rgba(12, 27, 54, 0.8);
+  border: 1px solid #1f2e46;
+  padding: 2px;
+  bottom: 12px;
+  right: 12px;
+  color: #fff;
+  max-width: 54px;
+}
+
+.hover-film-content {
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), black);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.film:hover .hover-film-content {
+  opacity: 1;
+}
+
+.hover-film-content i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.film-info {
+  position: relative;
+}
+
+.film-info .name .age {
+  width: 40px;
+  text-align: center;
+}
+
+.film-info .name span.C-type {
+  background-color: #fb4226;
+  padding: 0px 3px;
+}
+
+.film-info .name span.P-type {
+  background-color: #00ac4d;
+  padding: 0px 3px;
+}
+
+a.buyNow {
+  background-color: #fb4226;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+a.buyNow:hover {
+  color: white;
+}
+
+.name {
+  /* white-space: nowrap; */
+  height: 44px;
+  max-height: 44px;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}
+
+#film-thumbnails-1 .hover-info {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#film-thumbnails-1 .film:hover .hover-info {
+  opacity: 1;
+}
+
+#film-thumbnails-1 .film:hover .default-info {
+  opacity: 0;
+}
+
+#film-thumbnails-2 .hover-info {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#film-thumbnails-2 .film:hover .hover-info {
+  opacity: 1;
+}
+
+/* End Film Thumbnail */
+/*# sourceMappingURL=Films.css.map */

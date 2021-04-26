@@ -1,0 +1,52 @@
+#film-trailer img.left-arrow {
+  height: 6rem;
+  margin-left: -6rem;
+}
+
+.carousel-inner .carousel-item {
+  position: relative;
+}
+
+.carousel-item .play-button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.carousel-item .play-button i:hover {
+  opacity: 0.5;
+}
+
+#film-trailer img.right-arrow {
+  height: 6rem;
+  margin-right: -6rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 20% !important;
+}
+
+ol.carousel-indicators {
+  transform: translateY(-50px);
+}
+
+ol.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+ol.carousel-indicators li.active {
+  background-color: #fb4226;
+}
+/*# sourceMappingURL=Carousel.css.map */

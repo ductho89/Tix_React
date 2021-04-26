@@ -1,0 +1,23 @@
+.app-wrap {
+  padding: 80px 0 80px 0;
+}
+.app-detail {
+  padding-top: 60px;
+}
+
+a.download-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.app-content .app-demo {
+  position: relative;
+  align-items: center;
+}
+
+.app-content .app-demo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

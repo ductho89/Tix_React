@@ -1,0 +1,45 @@
+/* Start Navbar  */
+nav {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 15px black;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  transition: all 0.2s;
+  /* width: 100% !important; */
+}
+
+.navbar-collapse ul.navbar-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#userLogin i {
+  font-size: 35px;
+  transform: translateY(7px);
+}
+
+#userLogin:hover {
+  cursor: pointer;
+}
+
+.navbar-collapse #user-info {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+nav .navbar-nav a.nav-link:hover {
+  color: red !important;
+}
+
+nav .navbar-collapse {
+  text-align: right;
+}
+
+/* End Navbar  */
+/*# sourceMappingURL=Navbar.css.map */

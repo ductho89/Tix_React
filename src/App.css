@@ -1,1 +1,24 @@
-@import "./assets/css/HomeTemplate.css";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+a {
+  color: black;
+  transition: all 0.5s;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+@import "./assets/css/Carousel.css";
+@import "./assets/css/Navbar.css";
+@import "./assets/css/Films.css";
+@import "./assets/css/Cinema.css";
+@import "./assets/css/News.css";
+@import "./assets/css/MobileApp.css";
+@import "./assets/css/Footer.css";
