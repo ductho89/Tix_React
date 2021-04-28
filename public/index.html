@@ -49,6 +49,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Veno Box  -->
+    <link
+      rel="stylesheet"
+      href="../src/plugins/VenoBox-master/venobox/venobox.css"
+      type="text/css"
+      media="screen"
+    />
 
     <title>TIX</title>
   </head>
@@ -80,5 +87,17 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="../src/plugins/VenoBox-master/venobox/venobox.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".venobox").venobox({
+          framewidth: "800px", // default: ''
+          frameheight: "600px", // default: ''
+          titleattr: "data-title", // default: 'title'
+          numeratio: true, // default: false
+          infinigall: true, // default: false
+        });
+      });
+    </script>
   </body>
 </html>
