@@ -15,7 +15,7 @@ a:hover {
 p {
   margin-bottom: 0;
 }
-@import "./assets/css/Carousel.css";
+@import "./Components/Carousel/Carousel.css";
 @import "./assets/css/Navbar.css";
 @import "./assets/css/Films.css";
 @import "./assets/css/Cinema.css";

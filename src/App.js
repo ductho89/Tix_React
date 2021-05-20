@@ -1,22 +1,38 @@
 import "./App.css";
-import Footer from "./Components/layout/Footer";
-import Header from "./Components/layout/Header";
-import Carousel from "./Components/layout/Carousel"
-import Films from "./Components/layout/Films"
-import Cinema from "./Components/layout/Cinema"
-import News from "./Components/layout/News"
-import MobileApp from "./Components/layout/MobileApp"
+import { BrowserRouter, Route, Router, Switch } from "react-router-dom";
+import { Fragment } from "react";
+import HomeTemplate from "./Templates/HomeTemplate";
+import FilmDetailTemplate from "./Templates/FilmDetailTemplate";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Carousel from "./Components/Carousel/Carousel";
+import Films from "./Components/Films";
+import Cinema from "./Components/Cinema";
+import News from "./Components/News";
+import MobileApp from "./Components/MobileApp";
+
+import { createBrowserHistory } from "history";
+export const history = createBrowserHistory();
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Carousel/>
-      <Films/>
-      <Cinema/>
-      <News/>
-      <MobileApp/>
-      <Footer />
-    </div>
+    <Router history={history}>
+      <div className="App">
+        <Switch>
+          {/* <Header />
+          <Carousel />
+          <Films />
+          <Cinema />
+          <News />
+          <MobileApp />
+          <Footer /> */}
+          <FilmDetailTemplate
+            path="/film/maphim-tenphim"
+            component={FilmDetailTemplate}
+          ></FilmDetailTemplate>
+          <HomeTemplate path="/" exact component={HomeTemplate}></HomeTemplate>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
