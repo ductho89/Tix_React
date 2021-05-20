@@ -80,6 +80,10 @@
   max-width: 54px;
 }
 
+.thumbnail-content .default-film-content img.rounded {
+  width: 100% !important;
+}
+
 .film-score p {
   margin: 0;
 }

@@ -56,7 +56,7 @@ export default function Films(props) {
                           <a href="#">
                             <img
                               className="rounded img-fluid"
-                              src="./img/film_thumbnail/tom-jerry-16127706651597_215x318.png"
+                              src="https://picsum.photos/200/300"
                               alt
                             />
                           </a>

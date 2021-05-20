@@ -40,7 +40,7 @@
 
 #tinTuc .bg {
   padding-top: 120px;
-  /* background: url(../img/back-news.png); */
+  background: url(../../assets/img/back-news.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }

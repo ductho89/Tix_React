@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Route } from "react-router";
-import FilmDetail from "../Components/FilmDetail";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import FilmDetail from "../Components/FilmDetail/FilmDetail";
+import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 
 export default function FilmDetailTemplate(props) {
   return (
