@@ -1,4 +1,30 @@
 import React from "react";
+import cgv from "../../assets/img/cgv.png";
+import bhd from "../../assets/img/bhd.png";
+import galaxycine from "../../assets/img/galaxycine.png";
+import cinestar from "../../assets/img/cinestar.png";
+import lotte from "../../assets/img/404b8c4b80d77732e7426cdb7e24be20.png";
+import megags from "../../assets/img/megags.png";
+import bt from "../../assets/img/bt.jpg";
+import dongda from "../../assets/img/dongdacinema.png";
+import touch from "../../assets/img/TOUCH.png";
+import cnx from "../../assets/img/cnx.jpg";
+import starlight from "../../assets/img/STARLIGHT.png";
+import dcine from "../../assets/img/dcine.png";
+import zalopay from "../../assets/img/zalopay_icon.png";
+import payoo from "../../assets/img/payoo.jpg";
+import vcb from "../../assets/img/VCB.png";
+import arb from "../../assets/img/AGRIBANK.png";
+import vtb from "../../assets/img/VIETTINBANK.png";
+import ivb from "../../assets/img/IVB.png";
+import go from "../../assets/img/123go.png";
+import laban from "../../assets/img/laban.png";
+import apple from "../../assets/img/apple-logo.png";
+import android from "../../assets/img/android-logo.png";
+import facebook from "../../assets/img/facebook-logo.png";
+import zalo from "../../assets/img/zalo-logo.png";
+import zion from "../../assets/img/zion-logo.jpg";
+import bocongthuong from "../../assets/img/d1e6bd560daa9e20131ea8a0f62e87f8.png";
 
 export default function Footer(props) {
   return (
@@ -24,70 +50,70 @@ export default function Footer(props) {
               <div className="footer__logo">
                 <div className="col-sm-12">
                   <a href="icon">
-                    <img src="./img/cgv.png" className="img-fluid" alt />
+                    <img src={cgv} className="img-fluid" alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/bhd.png" alt />
+                    <img src={bhd} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/galaxycine.png" alt />
+                    <img src={galaxycine} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/cinestar.png" alt />
+                    <img src={cinestar} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/404b8c4b80d77732e7426cdb7e24be20.png" alt />
-                  </a>
-                </div>
-                <div className="col-sm-12">
-                  <a href="icon">
-                    <img src="./img/megags.png" alt />
-                  </a>
-                  <a href="icon">
-                    <img src="./img/bt.jpg" alt />
-                  </a>
-                  <a href="icon">
-                    <img src="./img/dongdacinema.png" alt />
-                  </a>
-                  <a href="icon">
-                    <img src="./img/TOUCH.png" alt />
-                  </a>
-                  <a href="icon">
-                    <img src="./img/cnx.jpg" alt />
+                    <img src={lotte} alt />
                   </a>
                 </div>
                 <div className="col-sm-12">
                   <a href="icon">
-                    <img src="./img/STARLIGHT.png" alt />
+                    <img src={megags} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/dcine.png" alt />
+                    <img src={bt} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/zalopay_icon.png" alt />
+                    <img src={dongda} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/payoo.jpg" alt />
+                    <img src={touch} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/VCB.png" alt />
+                    <img src={cnx} alt />
                   </a>
                 </div>
                 <div className="col-sm-12">
                   <a href="icon">
-                    <img src="./img/AGRIBANK.png" alt />
+                    <img src={starlight} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/VIETTINBANK.png" alt />
+                    <img src={dcine} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/IVB.png" alt />
+                    <img src={zalopay} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/123go.png" alt />
+                    <img src={payoo} alt />
                   </a>
                   <a href="icon">
-                    <img src="./img/laban.png" alt />
+                    <img src={vcb} alt />
+                  </a>
+                </div>
+                <div className="col-sm-12">
+                  <a href="icon">
+                    <img src={arb} alt />
+                  </a>
+                  <a href="icon">
+                    <img src={vtb} alt />
+                  </a>
+                  <a href="icon">
+                    <img src={ivb} alt />
+                  </a>
+                  <a href="icon">
+                    <img src={go} alt />
+                  </a>
+                  <a href="icon">
+                    <img src={laban} alt />
                   </a>
                 </div>
               </div>
@@ -97,19 +123,19 @@ export default function Footer(props) {
                 <div className="col-sm-6">
                   <p className="tix__title">MOBILE APP</p>
                   <a className="mobile__logo" href>
-                    <img src="./img/apple-logo.png" alt />
+                    <img src={apple} alt />
                   </a>
                   <a className="mobile__logo" href>
-                    <img src="./img/android-logo.png" alt />
+                    <img src={android} alt />
                   </a>
                 </div>
                 <div className="col-sm-6">
                   <p className="tix__title">SOCIAL</p>
                   <a className="mobile__logo" href>
-                    <img src="./img/facebook-logo.png" alt />
+                    <img src={facebook} alt />
                   </a>
                   <a className="mobile__logo" href>
-                    <img src="./img/zalo-logo.png" alt />
+                    <img src={zalo} alt />
                   </a>
                 </div>
               </div>
@@ -119,7 +145,7 @@ export default function Footer(props) {
         <hr className="footer__hr" />
         <div className="row footer__address">
           <div className="col-sm-1">
-            <img src="./img/zion-logo.jpg" alt />
+            <img src={zion} alt />
           </div>
           <div className="col-sm-9">
             <h5>TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION</h5>
@@ -139,7 +165,7 @@ export default function Footer(props) {
           </div>
           <div className="col-sm-2 label">
             <a href>
-              <img src="./img/d1e6bd560daa9e20131ea8a0f62e87f8.png" alt />
+              <img src={bocongthuong} alt />
             </a>
           </div>
         </div>

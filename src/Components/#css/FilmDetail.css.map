@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,GAAG;CACX;;AACD,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,GAAG;CACX",
-    "sources": [
-        "../FilmDetail/FilmDetail.scss"
-    ],
-    "names": [],
-    "file": "FilmDetail.css"
-}

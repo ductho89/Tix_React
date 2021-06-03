@@ -8,6 +8,7 @@
 a {
   color: black;
   transition: all 0.5s;
+  cursor: pointer;
 }
 a:hover {
   text-decoration: none;
@@ -15,6 +16,7 @@ a:hover {
 p {
   margin-bottom: 0;
 }
+
 @import "./Components/css/Carousel.css";
 @import "./Components/css/Header.css";
 @import "./Components/css/Films.css";

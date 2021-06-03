@@ -41,7 +41,7 @@
 
 #tinTuc .bg {
   padding-top: 120px;
-  background: url(../img/back-news.png);
+  background: url(../../assets/img/back-news.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -274,20 +274,20 @@
   margin-left: 0px;
 }
 
-.tix a {
-  text-decoration: none;
-  font-size: 12px;
-  cursor: pointer;
-  font-weight: 700;
-  white-space: nowrap;
-  color: #949494;
-  display: block;
-  -webkit-transition: all 0 0.2s;
-  transition: all 0.2s;
-  line-height: 2.3;
-}
+// .tix a {
+//   text-decoration: none;
+//   font-size: 12px;
+//   cursor: pointer;
+//   font-weight: 700;
+//   white-space: nowrap;
+//   color: #949494;
+//   display: block;
+//   -webkit-transition: all 0 0.2s;
+//   transition: all 0.2s;
+//   line-height: 2.3;
+// }
 
-.tix a:hover {
-  color: #fff;
-}
+// .tix a:hover {
+//   color: #fff;
+// }
 /* End News  */

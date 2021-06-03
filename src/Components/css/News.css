@@ -263,21 +263,5 @@
   margin-left: 0px;
 }
 
-.tix a {
-  text-decoration: none;
-  font-size: 12px;
-  cursor: pointer;
-  font-weight: 700;
-  white-space: nowrap;
-  color: #949494;
-  display: block;
-  transition: all 0.2s;
-  line-height: 2.3;
-}
-
-.tix a:hover {
-  color: #fff;
-}
-
 /* End News  */
 /*# sourceMappingURL=News.css.map */

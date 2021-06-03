@@ -1,11 +1,12 @@
 import React from "react";
+import webLogo from "../../assets/img/carousel/web-logo.png";
 
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div id="tixLogo">
         <a href="#" className="navbar-brand">
-          <img style={{ width: 50 }} src="./img/carousel/web-logo.png" alt="" />
+          <img style={{ width: 50 }} src={webLogo} alt="" />
         </a>
       </div>
       <button

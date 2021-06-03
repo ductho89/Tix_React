@@ -1,0 +1,9 @@
+20/05
+ - Lỗi không thể dùng hình ảnh như cách bình thường mà phải import vào để dùng, ví dụ như ở dưới
+import image1 from "../../assets/img/film_thumbnail/bo-gia-p-16127713123806_215x318.png";
+<img className="rounded img-fluid" src={image1} />
+***********************************************************************************************
+23/05
+- Gặp lỗi không thể chuyển giữa các trang trong phần thông tin và đánh giá
+=> Có lẽ phải thử cái nav pill của react-bootstrap
+- Lỗi ảnh footer đã fix được

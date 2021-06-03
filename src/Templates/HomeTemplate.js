@@ -3,11 +3,6 @@ import React, { Fragment } from "react";
 import { Route } from "react-router";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
-import Cinema from "../Components/Cinema/Cinema";
-import Films from "../Components/Films/Films";
-import News from "../Components/News/News";
-import MobileApp from "../Components/MobileApp/MobileApp";
-import Carousel from "../Components/Carousel/Carousel";
 
 export default function HomeTemplate(props) {
   return (
@@ -19,11 +14,8 @@ export default function HomeTemplate(props) {
           return (
             <Fragment>
               <Header></Header>
-              <Carousel></Carousel>
-              <Films></Films>
-              <Cinema></Cinema>
-              <News></News>
-              <MobileApp></MobileApp>
+              <props.component {...propsRoute}></props.component>
+              {/* Phải tiềm hiểu lại về cái props.component này */}
               <Footer></Footer>
             </Fragment>
           );

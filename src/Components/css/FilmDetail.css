@@ -1,37 +1,45 @@
 #film-info {
-  background-color: rgb(9, 32, 41);
+  background-color: #092029;
   padding: 50px 0;
 }
+
 #film-thumbnail img.star {
   width: 1rem;
 }
+
 #film-thumbnail img.half-star {
   width: 1rem;
 }
+
 a.buyNow {
-  background-color: rgb(251, 66, 38);
+  background-color: #fb4226;
   color: white;
   padding: 12px;
   font-size: 18px;
 }
+
 #film-news h5.title > a:hover {
-  color: rgb(251, 66, 38);
+  color: #fb4226;
   transition: 0.5s;
 }
+
 #film-detail {
   height: 300px;
 }
+
 #film-detail .nav li a.active {
   font-size: 24px;
-  color: rgb(251, 66, 38);
+  color: #fb4226;
   background-color: transparent !important;
 }
+
 #film-detail .nav li a {
   font-size: 20px;
   color: white;
   background-color: transparent !important;
   transition: all 0.5s;
 }
+
 #film-detail .nav li a:hover {
   font-size: 24px;
 }
@@ -39,15 +47,18 @@ a.buyNow {
 .left-info div {
   margin-bottom: 0.5rem;
 }
+
 .content-title {
   font-weight: bolder;
   width: 30%;
   display: inline-block;
 }
+
 .content-info {
   width: 50%;
   display: inline-block;
 }
+
 .icon {
   height: 25px;
   float: left;
@@ -70,14 +81,12 @@ a.buyNow {
   margin-top: 2px;
   height: auto;
   width: 18px;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   display: inline-block;
 }
 
 .icon .icon-like:hover img,
 .icon .icon-comment:hover img {
-  -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
@@ -89,17 +98,17 @@ a.buyNow {
 }
 
 #film-news a.title h4:hover {
-  color: rgb(251, 65, 38);
+  color: #fb4126;
   transition: 0.5s;
 }
 
-//ercent-circle
 .circle-wrap {
   margin: 50px auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
+
 .circle-wrap .circle .mask,
 .circle-wrap .circle .fill {
   width: 150px;
@@ -107,13 +116,16 @@ a.buyNow {
   position: absolute;
   border-radius: 50%;
 }
+
 .circle-wrap .circle .mask {
   clip: rect(0px, 150px, 150px, 75px);
 }
+
 .circle-wrap .circle .mask .fill {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: rgb(126, 211, 33);
+  background-color: #7ed321;
 }
+
 .circle-wrap .circle .mask.full,
 .circle-wrap .circle .fill {
   animation: fill ease-in-out 3s;
@@ -128,11 +140,12 @@ a.buyNow {
     transform: rotate(160deg);
   }
 }
+
 .circle-wrap .inside-circle {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: rgb(9, 32, 41);
+  background: #092029;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -142,3 +155,4 @@ a.buyNow {
   font-weight: 700;
   font-size: 4rem;
 }
+/*# sourceMappingURL=FilmDetail.css.map */
